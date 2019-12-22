@@ -1,0 +1,6 @@
+# 在较新版本中使用freemarker时，需要注意后缀，默认是 .ftlh
+spring:
+  freemarker:
+    suffix: .ftl
+    # 禁止ftl页面缓存
+    cache: false
